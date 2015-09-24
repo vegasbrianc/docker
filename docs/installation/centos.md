@@ -89,6 +89,12 @@ There are two ways to install Docker Engine.  You can use `curl` with the  `get.
 
 		For more examples and ideas, visit:
 		 http://docs.docker.com/userguide/
+		 
+6.  CentOS minimal installtions should install the docker-selinux package
+
+		$ sudo yum install docker-selinux
+		
+		This package fixes an issue with the Docker daemon conflicting with the CentOS firewall (Issue #15498)
 
 ### Install without the script
 
